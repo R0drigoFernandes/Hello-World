@@ -1,6 +1,6 @@
 package Animais;
 
-public class Animais {
+public abstract class Animais {
     static int numeroDeAnimais;
     private String raca;
     private String nome;
@@ -32,9 +32,9 @@ public class Animais {
                 ", peso=" + peso +
                 '}';
     }
-    public void somDeAnimal(){
+    public abstract void somDeAnimal();
 
-    }
+    
 
 
     public static int getNumeroDeAnimais() {

@@ -18,12 +18,17 @@ public class Main {
     Passaro passaro = new Passaro("Calopsita", "Yelow", "Amarelo", 5, 0.3, 4);
     petShop petShop = new petShop();
 
+    cachorro.somDeAnimal();
+    gato.somDeAnimal();
+    passaro.somDeAnimal();
+
     petShop.darBanho(cachorro);
     System.out.println(cachorro.getEstadoDeEspirito());
     petShop.tosar(cachorro);
     System.out.println(cachorro.getEstadoDeEspirito());
     petShop.deixarNoHotel(cachorro);
     System.out.println(cachorro.getEstadoDeEspirito());
+   
 
   }
 
