@@ -7,6 +7,7 @@ public class Animais {
     private String cor;
     private double altura;
     private double peso;
+    private String estadoDeEspirito;
 
 
 
@@ -84,5 +85,11 @@ public class Animais {
         this.peso = peso;
     }
 
+    public String getEstadoDeEspirito() {
+        return estadoDeEspirito;
+    }
 
+    public void setEstadoDeEspirito(String estadoDeEspirito) {
+        this.estadoDeEspirito = estadoDeEspirito;
+    }
 }

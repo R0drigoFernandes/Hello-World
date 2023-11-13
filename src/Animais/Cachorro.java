@@ -30,33 +30,8 @@ public class Cachorro extends Animais{
         System.out.println("Au Au");
     }
 
-    public String brincar(){
-        return "pegou a bolinha \n" + "Entregou a Bolinha";
-    }
-    public void elogiar(){
-        System.out.println("Seu cachorro balancou o rabo e está feliz!");
-    }
-    public void repreender(){
-        System.out.println("Seu cachorro ficou triste!");
-    }
 
 
-    public  void reagir(int acao){
-        switch(acao){
-            case 1: System.out.println("Jogou a bolinha");
-                System.out.println(brincar());
-                break;
-            case 2: System.out.println("Bom garoto!");
-                elogiar();
-                break;
-            case 3: System.out.println("Menino mau!");
-                repreender();
-                break;
-        }
-        if(acao > 3){
-            System.out.println("Comando invalido");
-        }
-
-    }
+  
 
 }
